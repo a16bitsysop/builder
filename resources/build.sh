@@ -1,6 +1,12 @@
 #!/bin/sh
 set -e
 ERR="Hello"
+
+for C in "$ERR"
+do
+  echo $C
+done
+
 echo $ERR
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # User config
